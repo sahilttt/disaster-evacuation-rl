@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Testing & Type Checking
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Databases & Logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs (ignore raw episode histories, retain summary & trained model)
+experiments/results/*_history.json
+experiments/results/*_eval_results.json
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,4 @@
+agent,training_episodes,training_success_rate,last_100_train_sr,eval_success_rate,eval_avg_reward,eval_avg_steps,eval_avg_path_length,disaster_terminations,disaster_encounter_rate
+q_learning,300,0.4867,0.7300,1.0000,93.00,8.00,8.00,,
+dqn_static,800,0.7375,0.9800,1.0000,93.00,8.00,8.00,,
+dqn_dynamic,1000,0.7050,0.9300,1.0000,93.00,8.00,8.00,0,0.0000

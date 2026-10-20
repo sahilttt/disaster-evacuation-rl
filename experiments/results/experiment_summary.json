@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-27T10:03:05.149519",
+  "q_learning": {
+    "training_episodes": 300,
+    "training_success_rate": 0.4866666666666667,
+    "last_100_train_sr": 0.73,
+    "evaluation": {
+      "success_rate": 1.0,
+      "avg_reward": 93.0,
+      "avg_steps": 8.0,
+      "avg_path_length": 8.0
+    }
+  },
+  "dqn_static": {
+    "training_episodes": 800,
+    "training_success_rate": 0.7375,
+    "last_100_train_sr": 0.98,
+    "evaluation": {
+      "success_rate": 1.0,
+      "avg_reward": 93.0,
+      "avg_steps": 8.0,
+      "avg_path_length": 8.0
+    }
+  },
+  "dqn_dynamic": {
+    "training_episodes": 1000,
+    "training_success_rate": 0.705,
+    "last_100_train_sr": 0.93,
+    "evaluation": {
+      "success_rate": 1.0,
+      "avg_reward": 93.0,
+      "avg_steps": 8.0,
+      "avg_path_length": 8.0,
+      "disaster_terminations": 0,
+      "disaster_encounter_rate": 0.0
+    }
+  }
+}
